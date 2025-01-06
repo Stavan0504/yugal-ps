@@ -35,6 +35,7 @@ const HomeBlogSection: React.FC<HomeBlogSectionProps> = ({ contentItem }) => {
                   alt={blog.image.altText || "user Image"}
                   width={350}
                   height={350}
+                  loading='lazy'
                   className="w-full lg:max-w-[300px] h-[300px] object-cover rounded-[25px]"
                 />
                 <div className="mt-[29px] w-full lg:max-w-[300px]">

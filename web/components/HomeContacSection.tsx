@@ -25,6 +25,7 @@ const HomeContactSection: React.FC<HomeContactSectionProps> = ({
                 alt={image?.icon?.altText || "Image"}
                 width={300}
                 height={300}
+                loading='lazy'
                 className={clsx(
                   "rounded-lg w-full object-cover",
                   index === 0 ? "max-w-[422px] h-[422px] z-20 relative" : "",

@@ -44,6 +44,7 @@ const HomeHowItWorksSection: React.FC<HomeHowItWorksSectionProps> = ({
                     alt={step?.icon?.altText || "user Image"}
                     width={128}
                     height={128}
+                    loading='lazy'
                     className="w-full max-w-[119px] h-[19px] object-cover"
                   />
                   <p className="text-black text-lg mt-[17px]">
@@ -69,6 +70,7 @@ const HomeHowItWorksSection: React.FC<HomeHowItWorksSectionProps> = ({
                     alt={step?.mainImage?.altText || "Step Image"}
                     width={step?.mainImage?.width || 500}
                     height={step?.mainImage?.height || 300}
+                    loading='lazy'
                     className="w-full max-w-full lg:max-w-[200px] h-[200px] object-cover"
                   />
                 </div>

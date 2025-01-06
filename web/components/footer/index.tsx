@@ -6,9 +6,7 @@ import { Link, Section } from "@/lib/sanity/types";
 
 const Footer = async () => {
   const FooterData = await client.fetch(query.layoutProps);
-
   const { logo, sections, copyright, disclaimer } = FooterData.footer;
-
   return (
     <footer className="w-full  mx-auto text-center text-xs gap-8 bg-white">
       <div className="container">

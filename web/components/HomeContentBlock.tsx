@@ -121,6 +121,7 @@ const HomeContentBlock: React.FC<HomeContentBlockProps> = ({ data }) => {
                         alt={image?.altText || "Content image"}
                         width={600}
                         height={400}
+                        loading="lazy"
                         className="w-full h-[275px] object-cover"
                       />
                     </div>

@@ -55,6 +55,7 @@ const HomeTestimonialSection: React.FC<HomeTestimonialSectionProps> = ({
                     width={120}
                     height={120}
                     objectFit="cover"
+                    loading='lazy'
                     className="absolute top-[-23%] w-full max-w-[132px] h-[110px] object-cover"
                   />
                 </div>

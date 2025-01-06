@@ -33,6 +33,7 @@ const HomeWhyChooseUs: React.FC<HomeWhyChooseUsProps> = ({ contentItem }) => {
                 width={asset?.width}
                 height={asset?.height}
                 objectFit="contain"
+                loading='lazy'
                 className="w-full max-w-[160px] h-[25px] object-cover"
               />
             </div>
